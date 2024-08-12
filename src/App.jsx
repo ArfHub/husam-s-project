@@ -1,6 +1,6 @@
 // #1f285d
 // #FFFFFF
-// #6d6e70
+/// #6d6e70
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
