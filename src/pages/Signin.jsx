@@ -87,7 +87,7 @@ function Signin() {
                     أدخل اسم المستخدم
                   </label>
                   <input
-                    className="w-full px-4 py-4 rounded-lg font-medium text-end bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-[#1f285d] focus:bg-white mb-4"
+                    className="w-full px-4 py-4 rounded-lg font-medium text-end text-black bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-[#1f285d] focus:bg-white mb-4"
                     type="text"
                     placeholder="اسم المستخدم"
                     onChange={(e) => setName(e.target.value)}
@@ -98,7 +98,7 @@ function Signin() {
                     أدخل الإيميل
                   </label>
                   <input
-                    className="w-full px-4 py-4 rounded-lg font-medium text-end bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-[#1f285d] focus:bg-white mb-4"
+                    className="w-full px-4 py-4 rounded-lg font-medium text-end text-black bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-[#1f285d] focus:bg-white mb-4"
                     type="email"
                     placeholder="الإيميل"
                     onChange={(e) => setEmail(e.target.value)}
@@ -108,7 +108,7 @@ function Signin() {
                     أدخل كلمة المرور
                   </label>
                   <input
-                    className="w-full px-4 py-4 text-end rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-[#1f285d] focus:bg-white mb-4"
+                    className="w-full px-4 py-4 text-end rounded-lg font-medium text-black bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-[#1f285d] focus:bg-white mb-4"
                     type="password"
                     placeholder="أدخل كلمة المرور"
                     onChange={(e) => setPassword(e.target.value)}
